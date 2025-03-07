@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Helloworld';
+  title = 'Hello from BridgeLabz';
+  imgUrl = 'https://www.bridgelabz.com/assets/images/BridgeLabz-logo.png'; // Dynamic Image URL
 }
