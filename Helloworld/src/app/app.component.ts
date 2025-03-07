@@ -7,5 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Hello from BridgeLabz';
-  imgUrl = 'https://www.bridgelabz.com/assets/images/BridgeLabz-logo.png'; // Dynamic Image URL
+  imgUrl = 'https://www.bridgelabz.com/assets/images/BridgeLabz-logo.png'; // Logo URL
+  websiteUrl = 'https://www.bridgelabz.com'; // Website URL
+
+  openWebsite() {
+    window.open(this.websiteUrl, '_blank'); // Opens in a new tab
+  }
 }
