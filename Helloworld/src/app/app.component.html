@@ -1,2 +1,9 @@
 <h1>{{ title }}</h1>
+
+<!-- Input field for user name -->
+<input type="text" [(ngModel)]="userName" placeholder="Enter your name">
+
+<!-- Display the message dynamically -->
+<h2>Hello, {{ userName }} from BridgeLabz</h2>
+
 <img src="https://www.bridgelabz.com/assets/images/BridgeLabz%20New%20Logo.svg" alt="BridgeLabz Logo" (click)="openWebsite()" style="cursor: pointer;">
